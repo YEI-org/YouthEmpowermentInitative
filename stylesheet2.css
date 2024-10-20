@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: url('Homelessness.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    background-color: #ff6363;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #d9534f;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Services Section */
+.services .service {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #28a745;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Hover Effect for Services */
+.services .service:hover {
+    background-color: #e9f7ef;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Donation Section */
+.donate .donation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.donation-options .option {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.donation-options .option h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.donation-options .option p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.donation-options .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.donation-options .option:hover {
+    background-color: #dff0d8;
+}
+
+.contact p {
+    margin: 10px 0;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
